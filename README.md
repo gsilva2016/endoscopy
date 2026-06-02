@@ -45,6 +45,7 @@ curl -L -o vit_b_medicosam.pt https://owncloud.gwdg.de/index.php/s/f5Ol4FrjPQWfj
 
 ```
 python convert_model.py
+cd ..
 ```
 
 Download and install the YOLO-Colonoscopy for training YOLO with CVC-ColonDB dataset
