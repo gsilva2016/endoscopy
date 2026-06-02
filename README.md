@@ -66,8 +66,8 @@ Execute the below command for Yolo26n
 
 ```
 python main_train.py --model_architecture yolo26n
-python convert_model.py
 cd ..
+python convert_model.py --model_architecture yolo26n
 ```
 
 ## Start the Demo
