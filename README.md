@@ -17,6 +17,13 @@ conda create -y -n endo-ov python=3.12
 conda activate endo-ov
 ```
 
+```
+git clone https://github.com/gsilva2016/endoscopy
+cd endoscopy
+pip install -r requirements.txt
+```
+
+
 ## Create the OpenVINO Detection and Segmentation Models
 
 Download the fine-tuned SAM 256x256model and optimize it with OpenVINO. 
