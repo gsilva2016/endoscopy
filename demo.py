@@ -169,7 +169,7 @@ signal.signal(signal.SIGINT, app_wide_signal_handler)
 
 while True:
     draw_img = perform_inference(image)
-    cv2.imshow("OpenVINO Detect/Medico SAM Segmentation Polyp Demo", draw_img)
+    cv2.imshow("OpenVINO Detect & Segmentation Polyp Demo", draw_img)
     
     if not loop_like_video:
         cv2.waitKey(0)
