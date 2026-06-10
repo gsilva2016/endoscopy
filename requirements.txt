@@ -3,3 +3,4 @@ ultralytics>=8.4.56
 icecream
 huggingface_hub
 safetensors
+pandas
